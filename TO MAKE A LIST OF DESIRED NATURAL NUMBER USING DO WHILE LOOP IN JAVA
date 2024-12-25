@@ -1,0 +1,28 @@
+//INPUT
+1
+import java.util.*;
+public class dowhile_loop{
+  public static void main(String[] args){
+  int a;
+  System.out.println("Enter a number: ");
+  Scanner s = new Scanner(System.in);
+  a = s.nextInt();
+  do{
+    System.out.println(a+" ");
+    ++a;
+  }
+  while(a<=10);
+  }
+}
+//OUTPUT
+Enter a number: 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
